@@ -1,11 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NOUPAYOU — Software Engineer // Product Designer</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    
+  <!-- Header -->
+  <header class="header">
+    <div class="logo">noupayou<span class="dot">.dev</span></div>
+    <nav class="nav">
+      <a href="#services">Services</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact Me</a>
+    </nav>
+    <a class="btn" href="assets/NOUPAYOU_CV.pdf" download>Download CV</a>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="circle-text">COME ON, LET’S BUILD SOMETHING NEW</div>
+    <div class="portrait">
+      <img src="john.jpg" alt="Portrait of NOUPAYOU" />
+    </div>
+    <h1>NOUPAYOU</h1>
+    <p>SOFTWARE ENGINEER // PRODUCT DESIGNER</p>
+  </section>
+
+  <!-- Clients -->
+  <section class="clients">
+    <p>Trusted by</p>
+    <ul>
+      <li><img src="icons8-amazone-50.png" alt="Amazon" /></li>
+      <li><img src="icons8-google-48.png" alt="Google" /></li>
+      <li><img src="icons8-facebook-48.png" alt="Facebook" /></li>
+    </ul>
+  </section>
+
+  <!-- Services -->
+  <section id="services">
+    <h2>Services</h2>
+    <div class="cards">
+      <div class="card">Web Development</div>
+      <div class="card">Product Design</div>
+      <div class="card">UX Research</div>
+      <div class="card">Mobile Apps</div>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="projects">
+      <div class="project">Project 1</div>
+      <div class="project">Project 2</div>
+      <div class="project">Project 3</div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <h2>About</h2>
+    <p>I’m NOUPAYOU — a software engineer and product designer focused on crafting fast, human‑centered experiences.</p>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Your name" required />
+      <input type="email" placeholder="you@example.com" required />
+      <textarea placeholder="Your message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© <span id="year"></span> NOUPAYOU. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
